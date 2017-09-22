@@ -17,11 +17,15 @@
  int main ()
 
 {
-    float r ;  //r = radius
+    float r ;  
     float A ;
     printf("Enter the radius value:") ;
     scanf("%f", &r) ;  //save the entered value to r
+<<<<<<< HEAD
     Area= PI*r*r ;  //do the calculation for the area
+=======
+    A= PI*r*r ;  //do the calculation for the area
+>>>>>>> 91f39c13d924179d5dcd85137854fe33e48821e4
 
     printf("The area of the circle = %f", A) ;
 
